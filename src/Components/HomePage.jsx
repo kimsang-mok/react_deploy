@@ -1,5 +1,6 @@
 import Navigation from './Navigation';
 import logo from '../logo.svg';
+import { Link } from 'react-router-dom'
 
 function HomePage() {
     return (
@@ -18,7 +19,9 @@ function HomePage() {
                 >
                     Learn React
                 </a>
+
             </header>
+            <Link to='/test' className='link' >Test</Link>
         </div>
     )
 }
